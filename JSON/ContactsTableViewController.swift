@@ -10,13 +10,11 @@ import UIKit
 
 class ContactsTableViewController: UITableViewController {
     
-    let contacts = Contacts()
+    var contacts:Contacts?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        contacts.loadContacts()
-
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -38,7 +36,7 @@ class ContactsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return contacts.count
+        return contacts?.count ?? 0
     }
 
     
@@ -46,9 +44,8 @@ class ContactsTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "contactCell", for: indexPath)
 
         // Configure the cell...
-        let contact = contacts.contact(at: indexPath)
-        cell.textLabel?.text = contact.fullName
-        print("1")
+        let contact = contacts?.contact(at: indexPath)
+        cell.textLabel?.text = contact?.fullName
 
         return cell
     }
