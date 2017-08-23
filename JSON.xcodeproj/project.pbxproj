@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FE97B8321F4E099300FC4C05 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97B8311F4E099300FC4C05 /* DetailViewController.swift */; };
+		FE97B8341F4E0D1900FC4C05 /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = FE97B8331F4E0D0A00FC4C05 /* contacts.json */; };
 		FEF45A481F3A1C32003F19BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF45A471F3A1C32003F19BE /* AppDelegate.swift */; };
 		FEF45A4D1F3A1C32003F19BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF45A4B1F3A1C32003F19BE /* Main.storyboard */; };
 		FEF45A4F1F3A1C32003F19BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF45A4E1F3A1C32003F19BE /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		FE97B8311F4E099300FC4C05 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FE97B8331F4E0D0A00FC4C05 /* contacts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
 		FEF45A441F3A1C32003F19BE /* JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF45A471F3A1C32003F19BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEF45A4C1F3A1C32003F19BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				FEF45A501F3A1C32003F19BE /* LaunchScreen.storyboard */,
 				FEF45A5D1F3A1D02003F19BE /* small-contacts.json */,
 				FEF45A531F3A1C32003F19BE /* Info.plist */,
+				FE97B8331F4E0D0A00FC4C05 /* contacts.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE97B8341F4E0D1900FC4C05 /* contacts.json in Resources */,
 				FEF45A5E1F3A1D14003F19BE /* small-contacts.json in Resources */,
 				FEF45A521F3A1C32003F19BE /* LaunchScreen.storyboard in Resources */,
 				FEF45A4F1F3A1C32003F19BE /* Assets.xcassets in Resources */,

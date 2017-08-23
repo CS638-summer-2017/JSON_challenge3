@@ -75,7 +75,7 @@ class Contacts {
     }
     
     func loadBundledJSON() -> [Contact] {
-        let url = Bundle.main.url(forResource: "small-contacts", withExtension: "json")
+        let url = Bundle.main.url(forResource: "contacts", withExtension: "json")
         
         guard let jsonData = try? Data(contentsOf: url!) else {
             return []
