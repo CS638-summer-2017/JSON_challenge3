@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE97B8321F4E099300FC4C05 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE97B8311F4E099300FC4C05 /* DetailViewController.swift */; };
 		FEF45A481F3A1C32003F19BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF45A471F3A1C32003F19BE /* AppDelegate.swift */; };
 		FEF45A4D1F3A1C32003F19BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF45A4B1F3A1C32003F19BE /* Main.storyboard */; };
 		FEF45A4F1F3A1C32003F19BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF45A4E1F3A1C32003F19BE /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE97B8311F4E099300FC4C05 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FEF45A441F3A1C32003F19BE /* JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF45A471F3A1C32003F19BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEF45A4C1F3A1C32003F19BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				FEF45A471F3A1C32003F19BE /* AppDelegate.swift */,
 				FEF45A4B1F3A1C32003F19BE /* Main.storyboard */,
+				FE97B8311F4E099300FC4C05 /* DetailViewController.swift */,
 				FEF45A591F3A1C67003F19BE /* ContactsTableViewController.swift */,
 				FEF45A5F1F3A1EDC003F19BE /* Contacts.swift */,
 				FEF45A611F3A20B4003F19BE /* Utilities.swift */,
@@ -147,6 +150,7 @@
 			files = (
 				FEF45A5A1F3A1C67003F19BE /* ContactsTableViewController.swift in Sources */,
 				FEF45A481F3A1C32003F19BE /* AppDelegate.swift in Sources */,
+				FE97B8321F4E099300FC4C05 /* DetailViewController.swift in Sources */,
 				FEF45A621F3A20B4003F19BE /* Utilities.swift in Sources */,
 				FEF45A601F3A1EDC003F19BE /* Contacts.swift in Sources */,
 			);
